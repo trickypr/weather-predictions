@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Australian government data
+scripts/**.zip
+src/training_data.json

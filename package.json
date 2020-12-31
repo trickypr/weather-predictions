@@ -8,10 +8,14 @@
   "private": true,
   "scripts": {
     "dev": "parcel src/**.html -p 8080 --host 0.0.0.0",
-    "build": "parcel build src/**.html"
+    "build": "parcel build src/**.html",
+    "data": "node scripts/data.js"
   },
   "devDependencies": {
+    "papaparse": "^5.3.0",
     "parcel-bundler": "^1.12.4",
-    "prettier": "^2.2.1"
-  }
+    "prettier": "^2.2.1",
+    "unzipper": "^0.10.11"
+  },
+  "dependencies": {}
 }
